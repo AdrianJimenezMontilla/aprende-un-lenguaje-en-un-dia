@@ -1,54 +1,23 @@
-# Aprende un lenguaje de programación en un día (ejercicio voluntario para subir nota).
-
-## Introducción
-
-Cuando te sacaste el carnet de conducir, aprendiste las normas de circulación así como los fundamentos básicos para manejar un coche: volante, marchas, freno, acelerador, embrague, retrovisores... Seguramente, el coche que conduces ahora es diferente al que utilizaste para aprender a conducir, no obstante, lo puedes llevar sin problema. Cada coche tiene sus peculiaridades, pero quien sabe manejar un automóvil, puede adaptarse a las medidas, tacto y comportamiento de un vehículo en cuestión de horas.
-
-Aprender a programar es como aprender a conducir. Si tienes una base sólida de programación y sabes manejar con soltura los tipos de datos, bucles, arrays, clases, métodos, etc. podrás pasar de un lenguaje a otro en un período relativamente corto, simplemente tendrás que adaptarte a la sintaxis y a las peculiaridades del nuevo lenguaje.
-
-Con este ejercicio se pretende despertar el interés por otros lenguajes de programación distintos al que el alumno está estudiando como primer lenguaje.
-
-Sigue los pasos que se indican a continuación.
-
-## Creación del equipo
-
-Este ejercicio se debe hacer en grupos de 3 alumnos. Uno de ellos será el representante del grupo.
-
-## Forkea forkea
-
-El representante del grupo debe hacer un *fork* de este repositorio para utilizarlo como base.
-
-## Añadiendo colaboradores
-
-El encargado del grupo deberá añadir como colaboradores del repositorio *forkeado* a los otros dos miembros, para trabajar todos sobre los mismos archivos. Cuando alguien es colaborador en un repositorio, puede hacer *push* a él sin necesidad de pedir permiso o hacer *pull request*.
-
-Para añadir colaboradores hay que hacer click en la pestaña *Settings* y seleccionar luego *Collaborators* en el menú.
-
 ## Miembros del grupo
 
-Escribe aquí los miembros del grupo. El primero es el representante o encargado.
-
-* Alan Brito
-* Elba Lazo
-* Esteban Quito
+* Adrián Jimenez Montilla
+* Guillermo García 
 
 ## Lenguaje de programación
 
-El profesor llevará una cajita llena de papelitos con los nombres de distintos lenguajes de programación. Los encargados de cada grupo meterán la mano en la caja y sacarán dos papelitos, de los cuales el grupo elegirá uno. Se permite hacer intercambio de papelitos entre grupos.
-
-Escribe el lenguaje de programación elegido por el grupo.
-
-* Mi lenguaje
-
-Los papelitos se han recortado de este [documento](lenguajes_de_programacion.pdf).
+* Coffescript
 
 ## Información sobre el lenguaje
 
-Busca páginas y/o manuales sobre el lenguaje de programación elegido. Escribe aquí las principales características: cuándo y para qué se creó, en qué ámbito se utiliza, cuáles son sus principales ventajas, etc. Pon aquí enlaces y capturas de pantalla.
+CoffeeScript es un lenguaje de programación que se compila a JavaScript. El lenguaje añade azúcar sintáctico inspirado en Ruby, Python y Haskell2 para mejorar la brevedad y la legibilidad de JavaScript, y añade características más sofisticadas, como la comprensión de listas y la coincidencia de patrones. CoffeeScript compila previsiblemente a JavaScript y los programas se pueden escribir por lo general en 1/3 menos de líneas de código sin ningún efecto en el rendimiento ni en el tiempo de ejecución. A partir del 16 de marzo de 2011, CoffeeScript ha estado en la lista de los proyectos más visitados en GitHub, y al 27 de julio 2012 es el undécimo lenguaje más popular en GitHub.
+
+El lenguaje tiene un seguimiento relativamente grande por parte de la comunidad Ruby. El soporte a CoffeeScript está incluido en Ruby on Rails desde su versión. Además, Brendan Eich ha hecho referencia a CoffeeScript como una influencia en sus pensamientos sobre el futuro de JavaScript.
 
 ## Herramientas de desarrollo
 
-Indica aquí qué software has tenido que instalar para programar en este lenguaje. Añade enlaces y/o capturas de pantalla.
+Sublime Text
+Para la comprobación de los programas usaremos la página http://coffeescript.org
+en la cual podremos ejecutar el codigo de coffescript.
 
 ## Poniendo en práctica el lenguaje
 
