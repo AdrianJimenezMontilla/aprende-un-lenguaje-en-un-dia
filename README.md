@@ -1,7 +1,7 @@
 ## Miembros del grupo
 
 * Adrián Jimenez Montilla
-* Guillermo García 
+* Guillermo García Fernández
 
 ## Lenguaje de programación
 
