@@ -16,7 +16,7 @@ El lenguaje tiene un seguimiento relativamente grande por parte de la comunidad 
 ## Herramientas de desarrollo
 
 Sublime Text, para la comprobación de los programas usaremos la página http://coffeescript.org
-en la cual podremos ejecutar el codigo de coffescript.
+en la cual podremos ejecutar el código de coffescript.
 
 ## Poniendo en práctica el lenguaje
 
