@@ -15,8 +15,7 @@ El lenguaje tiene un seguimiento relativamente grande por parte de la comunidad 
 
 ## Herramientas de desarrollo
 
-Sublime Text
-Para la comprobación de los programas usaremos la página http://coffeescript.org
+Sublime Text, para la comprobación de los programas usaremos la página http://coffeescript.org
 en la cual podremos ejecutar el codigo de coffescript.
 
 ## Poniendo en práctica el lenguaje
@@ -25,7 +24,6 @@ Pon en práctica el lenguaje de programación realizando los siguientes ejercici
 
 ### 1. ¡Hola mundo!
 
-Realiza un programa que muestre por pantalla la frase **¡Hola mundo!**.
 
 ### 2. Pirámide
 
