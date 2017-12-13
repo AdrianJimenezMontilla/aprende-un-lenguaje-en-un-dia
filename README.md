@@ -58,6 +58,10 @@ piramide = (e) ->
    return
 ````
 
+
+![Salida de Piramide](https://github.com/AdrianJimenezMontilla/aprende-un-lenguaje-en-un-dia/blob/master/piramide.jpg "Coffee Piramide")
+
+
 ### 3. Arrays y números aleatorios
 
 Realiza un programa que rellene un array (o una estructura similar) con 20 números enteros aleatorios entre 1 y 100 y que seguidamente los muestre por pantalla. A continuación, se deben pasar los números primos a las primeras posiciones del array y los no primos a las posiciones restantes. Muestra finalmente el array resultado.
@@ -102,6 +106,7 @@ for index in [0..19]
 	div.innerHTML = numeros[index]
 ````
 
+![Salida de Array](https://github.com/AdrianJimenezMontilla/aprende-un-lenguaje-en-un-dia/blob/master/array.jpg "Coffee Array")
 
 ## Presentación de resultados
 
