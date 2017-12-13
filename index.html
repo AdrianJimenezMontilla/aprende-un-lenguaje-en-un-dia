@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Piramide CoffeeScript</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> 
+  <style type="text/css" media="screen">
+    body { font-family: "Nunito"; }
+    table, td{ border:  1px solid #000; }  
+    td { padding: 10px 15px; width: 30px; height: 30px; }
+    table { border-collapse: collapse; }
+    caption { font-size: 1.5em; font-weight: bold; line-height: 2em; }
+    .primo { background-color: #0c0; color: #00a; }
+    .noprimo { background-color: #0a0; color: #00c; }
+    #piramide { margin: 50px 0 0 50px; }
+    #piramide pre { color:#f0f; font-size:4em; line-height: 1em; margin: 0; padding: 0; }
+  </style>
+</head>
+<body>
+
+  <form action="index.html" method="post" accept-charset="utf-8">
+    <label for="altura">Tamaño de la Piramide</label>
+    <input type="number" id="altura" name="altura" value=""> 
+    <input type="submit" name="" value="Crear Piramide" onClick="piramide(event);">
+  </form>
+
+  <div id="piramide"></div>
+
+  <div><table>
+    <caption>Array Original</caption>
+    <tr id="arrayOriginal">
+      <td id="ao0"></td>
+      <td id="ao1"></td>
+      <td id="ao2"></td>
+      <td id="ao3"></td>
+      <td id="ao4"></td>
+      <td id="ao5"></td>
+      <td id="ao6"></td>
+      <td id="ao7"></td>
+      <td id="ao8"></td>
+      <td id="ao9"></td>
+      <td id="ao10"></td>
+      <td id="ao11"></td>
+      <td id="ao12"></td>
+      <td id="ao13"></td>
+      <td id="ao14"></td>
+      <td id="ao15"></td>
+      <td id="ao16"></td>
+      <td id="ao17"></td>
+      <td id="ao18"></td>
+      <td id="ao19"></td>
+    </tr>
+  </table></div>
+  <div><table><caption>Array Final</caption><tr  id="arrayFinal">
+      <td id="af0"></td>
+      <td id="af1"></td>
+      <td id="af2"></td>
+      <td id="af3"></td>
+      <td id="af4"></td>
+      <td id="af5"></td>
+      <td id="af6"></td>
+      <td id="af7"></td>
+      <td id="af8"></td>
+      <td id="af9"></td>
+      <td id="af10"></td>
+      <td id="af11"></td>
+      <td id="af12"></td>
+      <td id="af13"></td>
+      <td id="af14"></td>
+      <td id="af15"></td>
+      <td id="af16"></td>
+      <td id="af17"></td>
+      <td id="af18"></td>
+      <td id="af19"></td>
+  </tr></table></div>
+</body>
+<script src="array.js" type="text/javascript" charset="utf-8"></script>
+<script src="piramide.js" type="text/javascript" charset="utf-8"></script>
+</html>
