@@ -37,9 +37,6 @@ Dada una altura introducida por el usuario, realiza un programa que pinte una pi
 Realiza un programa que rellene un array (o una estructura similar) con 20 números enteros aleatorios entre 1 y 100 y que seguidamente los muestre por pantalla. A continuación, se deben pasar los números primos a las primeras posiciones del array y los no primos a las posiciones restantes. Muestra finalmente el array resultado.
 
 ````coffeeScript
-run = (div, numero) ->
-    div.innerHTML = numero
-
 numeros = []
 finalFor = 0
 for index in [0..19]
@@ -68,13 +65,15 @@ while (index >= finalFor)
 		numeros[0] = numeroActual
 		finalFor++
 	index--
-			
+
+finalFor--
+
 #Pintamos el array tras mover los primos
 div = document.getElementById "arrayFinal"
 for index in [0..19]
 	div = document.getElementById "af" + index 
-	if (index <= finalFor) then div.className = 'primo' else div.className ='noprimo'		
-	setTimeout(run(div, numeros[index]), 1000)
+	if (index <= finalFor - 1) then div.className = 'primo' else div.className ='noprimo'
+	div.innerHTML = numeros[index]
 ````
 
 
