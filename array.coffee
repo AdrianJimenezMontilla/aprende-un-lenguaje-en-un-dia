@@ -4,7 +4,11 @@ for index in [0..19]
 	numeros[index] = Math.floor(Math.random() * 100) + 1
 
 #Pintamos el array Original
-original = "Array Original: \n" + numeros.toString()
+div = document.getElementById "arrayOriginal"
+for index in [0..19]
+	td = document.createElement('td')
+	td.innerHTML = numeros[index]
+	div.appendChild td
 
 # Reordenamos el array poniendo los primos primero
 index = numeros.length - 1
@@ -15,10 +19,7 @@ while (index >= finalFor)
 	
 	#Comprobamos si el número es primo o no
 	while ((esPrimo) && (divisor < Math.sqrt(numeroActual)))
-		if ((numeroActual % divisor) != 0)
-			divisor++
-		else
-			esPrimo = false
+		if ((numeroActual % divisor) != 0) then divisor++ else esPrimo = false
 
 	if (esPrimo)
 		for j in [index..1] by -1
@@ -28,4 +29,8 @@ while (index >= finalFor)
 	index--
 			
 #Pintamos el array tras mover los primos
-alert original + "\n\nArray Con Primos al inicio: " + numeros.toString()
+div = document.getElementById "arrayFinal"
+for index in [0..19]
+	td = document.createElement('td')
+	td.innerHTML = numeros[index]
+	div.appendChild td
