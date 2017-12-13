@@ -1,4 +1,4 @@
-## Miembros del grupo
+## Miembros del grupo Relaxing Cup of Cafe con Leche
 
 * Adrián Jimenez Montilla
 * Guillermo García Fernández
@@ -9,13 +9,13 @@
 
 ## Información sobre el lenguaje
 
-CoffeeScript es un lenguaje de programación que se compila a JavaScript. El lenguaje añade azúcar sintáctico inspirado en Ruby, Python y Haskell2 para mejorar la brevedad y la legibilidad de JavaScript, y añade características más sofisticadas, como la comprensión de listas y la coincidencia de patrones. CoffeeScript compila previsiblemente a JavaScript y los programas se pueden escribir por lo general en 1/3 menos de líneas de código sin ningún efecto en el rendimiento ni en el tiempo de ejecución. A partir del 16 de marzo de 2011, CoffeeScript ha estado en la lista de los proyectos más visitados en GitHub, y al 27 de julio 2012 es el undécimo lenguaje más popular en GitHub.
+CoffeeScript es un lenguaje de programación que se compila a JavaScript. El lenguaje añade azúcar sintáctico inspirado en Ruby, Python y Haskell2 para mejorar la brevedad y la legibilidad de JavaScript, y añade características más sofisticadas, como la comprensión de listas y la coincidencia de patrones. CoffeeScript normalmente se compila a JavaScript y los programas se pueden escribir por lo general con un tercio menos de líneas de código sin ningún efecto en el rendimiento ni en el tiempo de ejecución. A partir del 16 de marzo de 2011, CoffeeScript ha estado en la lista de los proyectos más visitados en GitHub, y al 27 de julio 2012 es el undécimo lenguaje más popular en GitHub.
 
-El lenguaje tiene un seguimiento relativamente grande por parte de la comunidad Ruby. El soporte a CoffeeScript está incluido en Ruby on Rails desde su versión. Además, Brendan Eich ha hecho referencia a CoffeeScript como una influencia en sus pensamientos sobre el futuro de JavaScript.
+El lenguaje tiene un seguimiento relativamente grande por parte de la comunidad Ruby. El soporte a CoffeeScript está incluido en Ruby on Rails desde su versión 3.1. Además, Brendan Eich ha hecho referencia a CoffeeScript como una influencia en sus pensamientos sobre el futuro de JavaScript.
 
 ## Herramientas de desarrollo
 
-Sublime Text, para la comprobación de los programas usaremos la página http://coffeescript.org
+Vamos a usar Sublime Text para escribir, para la comprobación de los programas usaremos la página http://coffeescript.org
 en la cual podremos ejecutar el código de coffescript.
 
 ## Poniendo en práctica el lenguaje
@@ -24,7 +24,9 @@ Pon en práctica el lenguaje de programación realizando los siguientes ejercici
 
 ### 1. ¡Hola mundo!
 
+````coffeeScript
 alert "¡Hola, Mundo!"
+````
 
 ### 2. Pirámide
 
