@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Piramide CoffeeScript</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> 
+  <style type="text/css" media="screen">
+    body { font-family: "Nunito"; }
+    table, td{ border:  1px solid #000; }  
+    td { padding: 10px 15px; width: 30px; height: 30px; }
+    table { border-collapse: collapse; }
+    caption { font-size: 1.5em; font-weight: bold; line-height: 2em; }
+    .primo { background-color: #0c0; color: #00a; }
+    .noprimo { background-color: #0a0; color: #00c; }
+    #piramide { margin: 50px 0 0 50px; }
+    #piramide pre { color:#f0f; font-size:4em; line-height: 1em; margin: 0; padding: 0; }
+  </style>
+</head>
+<body>
+
+  <form action="index.html" method="post" accept-charset="utf-8">
+    <label for="altura">Tamaño de la Piramide</label>
+    <input type="number" id="altura" name="altura" value=""> 
+    <input type="submit" name="" value="Crear Piramide" onClick="piramide(event);">
+  </form>
+
+  <div id="piramide"></div>
+
+</body>
+<script src="array.js" type="text/javascript" charset="utf-8"></script>
+<script src="piramide.js" type="text/javascript" charset="utf-8"></script>
+</html>
